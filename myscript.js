@@ -171,14 +171,14 @@ function editFunc(taskid) {
     button.innerText = "Save";
     content.setAttribute("contenteditable", "true");
     content.focus();
-
+    // Move cursor to end of content
     const range = document.createRange();
     const selection = window.getSelection();
     range.selectNodeContents(content);
     range.collapse(false); // false = collapse to end
     selection.removeAllRanges();
     selection.addRange(range);
-    
+
   } else {
     button.innerText = "Edit";
     content.setAttribute("contenteditable", "false");
