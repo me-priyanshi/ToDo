@@ -1,0 +1,35 @@
+body{
+    /* background: linear-gradient(135deg, #f06, #4a90e2); */
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+}
+
+.mode{
+    float: right; 
+    font-size: larger;
+}
+
+.add{
+    font-size: larger;
+    padding: auto;
+    margin: auto;
+}
+
+.btn-success{
+    background-color: orange !important;
+    border-color: rgba(255, 166, 0, 0.73) !important;
+}
+
+.btn-success:hover, .btn-success:active, .btn-success:focus-visible{
+    background-color: rgb(159, 98, 0) !important; 
+    border-color: rgba(255, 166, 0, 0.9) !important;
+}
+
+.delbtn{
+    color: rgb(250, 136, 136);
+}
+
+.delbtn:hover, .delbtn:active, .delbtn:focus-visible{
+    color: rgb(247, 71, 71);
+}
