@@ -15,7 +15,7 @@ A simple and stylish todo app to manage your tasks—add, edit and delete in you
 ## 🚀 Try it Live
 
 Check out the app on GitHub Pages:  
-👉 [Live Demo]([https://me-priyanshi.github.io/ToDo/]) 👈
+👉 [Live Demo](https://me-priyanshi.github.io/ToDo/) 👈
 
 ## 🛠️ How to Use
 
